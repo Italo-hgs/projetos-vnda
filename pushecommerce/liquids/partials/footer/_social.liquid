@@ -1,0 +1,16 @@
+{% assign social_menu = '' %}
+
+{% load_menus position: 'social' %}
+
+<div class="social">
+  <nav class="social-icons">
+    {% for menu in loaded_menus %}
+      <a href="{{ menu.url }}" {% if menu.external %} rel="external" target="_blank" {% endif %}>
+        <svg role="img">
+          <title>{{ menu.title }}</title>
+          <use xlink:href="#icon-{{ menu.tooltip }}"/>
+        </svg>
+      </a>
+    {% endfor %}
+  </nav>
+</div>
