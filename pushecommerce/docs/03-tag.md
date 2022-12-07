@@ -2,7 +2,10 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ce33c1c58d289ccf1e9c88b29ed4c7df3eadf130
 - ![Computer](../images/prints/computer.png)
   - ![Print](../images/prints/03-tag.png)
 
