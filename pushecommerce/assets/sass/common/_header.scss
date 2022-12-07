@@ -4,7 +4,7 @@
 
 #header {
   // padding-top: 45px;
-  background: $white;
+  background: $bg-principal;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -50,6 +50,7 @@
 
     @import "../components/header/logo";
     @import "../components/header/search";
+    @import "../components/header/suporte";
     @import "../components/header/actions";
     @import "../components/header/account";
     @import "../components/header/cart";

@@ -1,7 +1,7 @@
 {% load_banners position: 'geral-faixa-topo' limit: 1 %}
 
 {% for banner in loaded_banners %}
-  <section class="top-bar" style="background: {{ banner.color }};">
+  <section class="top-bar" style="background: {{ banner.color }};display:none;">
     {{ banner.description }}
     
     <button 

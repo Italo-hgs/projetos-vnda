@@ -1,6 +1,6 @@
 .menu {
   position: relative;
-
+  background-color: $white;
   // width: 70%;
   left: 50%;
   transform: translateX(-50%);
@@ -24,8 +24,18 @@
     & > li {
       margin: 0 10px;
       z-index: 1;
-      padding: 25px 0;
-  
+      padding: 10px 0;
+      
+      a,
+      h2{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        color: #6C6C6C;
+      }
+
       > a,
       > h2 {
         padding: 0 5px;

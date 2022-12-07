@@ -1,4 +1,6 @@
 .account {
+  display: flex;
+  align-items: center;
   @include media('xs'){
     display: none;
   }
@@ -7,6 +9,29 @@
 
     &:last-child {
       margin-right: 0;
+    }
+  }
+  .icon{
+    width: 28px;
+    height: 46px;
+    color: #8A8D98;
+    stroke-width: 2px !important;
+  }
+
+  .btn-login{
+    color: $cor-principal;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    text-transform:initial;
+    span{
+      color: #8A8D98;
+      text-transform: none !important;
+      display: inline-block !important;
+      font-size: 14px;
     }
   }
 }

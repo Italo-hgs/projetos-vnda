@@ -1,7 +1,9 @@
 .search {
-  border: 1px solid $color-accent;
-  border-radius: 0.3rem;
   align-self: center;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  border: none;
 
   @include media("xs") {
     order: 4;
@@ -13,10 +15,10 @@
   form {
     input {
       height: 1.2rem;
-      padding: 0;
+      padding: 25px 30px;
       line-height: 1.1em;
       border: 0 solid transparent;
-      width: 17.5rem;
+      width: 480px;
       letter-spacing: 0.5px;
       font-size: $font-size-small;
       box-shadow: 0 2px 0 transparent;
@@ -38,5 +40,14 @@
     padding: 0.3rem 0.5rem;
     vertical-align: middle;
     height: 1.786rem;
+    color: #ddd;
   }
+}
+
+.icon-search-1{
+  color: #ddd;
+  font-weight: bold;
+  height: 24px;
+  width: 30px;
+  padding-right: 5px;
 }

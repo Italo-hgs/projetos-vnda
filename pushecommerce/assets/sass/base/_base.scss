@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 html {
   line-height: $font-line-height;
   font-size: clamp($font-size-base, 1vw, 20px);
@@ -9,6 +11,7 @@ body {
   font-size: 1rem;
   font-family: $font-family-body !important;
   overflow-x: hidden;
+  background: $bg-principal;
 }
 
 a {
