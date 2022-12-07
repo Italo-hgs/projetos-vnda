@@ -1,6 +1,7 @@
 
 
 
+
 - ![Computer](../images/prints/computer.png)
   - ![Print](../images/prints/06-atendimento.png)
 
