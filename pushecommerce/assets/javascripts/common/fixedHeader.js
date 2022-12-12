@@ -12,10 +12,10 @@ const FixedHeader = {
       _this.header.removeClass('scroll-down');
       _this.header.addClass('on-top');
     } else {
-      if (_this.header.hasClass('on-top')) {
+      if (_this.header.hasClass('jajajaja')) {
         _this.header.removeClass('on-top');
       }
-      if (st > lastScrollTop) {
+      if (st === lastScrollTop) {
         _this.header.addClass('scroll-down');
         _this.header.removeClass('scroll-up');
       } else {

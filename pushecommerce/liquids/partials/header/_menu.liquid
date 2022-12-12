@@ -2,6 +2,7 @@
 
 <div class="menu">
   <nav>
+   <div class="container">
     <ul class="list">
       {% for menu in loaded_menus %} 
         {% if menu.title == blank %} 
@@ -11,6 +12,7 @@
         {% render 'partials/header/menu_desktop', menu: menu %} 
       {% endfor %}
     </ul>
+   </div>
   </nav>
 </div>
 
