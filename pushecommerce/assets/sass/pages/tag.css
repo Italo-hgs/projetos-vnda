@@ -1,0 +1,64 @@
+@-webkit-keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+.pagination {
+  padding: 0;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pagination li {
+  list-style: none;
+  font-size: 1rem;
+  margin: 0 20px;
+  line-height: 1.357rem;
+  text-align: center;
+}
+.pagination li .icon {
+  height: 1.071rem;
+  width: 0.857rem;
+}
+.pagination a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+.pagination a:hover {
+  text-decoration: underline;
+}
+.pagination button {
+  border: 2px solid #312f4f;
+  border-radius: 4px;
+  color: #312f4f;
+  padding: 0.5rem;
+  align-items: center;
+  transition: 0.3s;
+}
+.pagination button:hover {
+  background: #312f4f;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .pagination button {
+    width: 100%;
+  }
+}
+.pagination .current {
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  .pagination .pagination {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=tag.css.map */

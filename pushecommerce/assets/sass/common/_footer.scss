@@ -2,12 +2,13 @@
   position: relative;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-
-  background-color: $color-accent;
-  color: $white;
+  color: $color-accent;
+  background-color: $white;
 
   >.content {
-    display: grid;
+    max-width: 1400px;
+    margin: auto;
+    //display: grid;
     grid-gap: 1.8rem;
     padding-left: 5%;
     padding-right: 5%;

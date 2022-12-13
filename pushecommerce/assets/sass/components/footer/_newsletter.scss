@@ -1,8 +1,9 @@
 .newsletter {
-  grid-area: newsletter;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: 3.5rem;
+  background-color: #8A8D98;
 
   .content {
     margin: 0 1.5rem;
@@ -14,6 +15,12 @@
       text-transform: uppercase;
       padding-bottom: 0.5rem;
       font-weight: 400;
+    }
+  }
+
+  .logo-newsletter{
+    svg{
+      width: 154px;
     }
   }
 
@@ -33,7 +40,7 @@
     }
 
     input {
-      background: transparent;
+      background: $white;
       border: 1px solid $white;
       border-radius: 3px;
       margin-right: 0.5rem;

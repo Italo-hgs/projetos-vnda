@@ -1,0 +1,52 @@
+@-webkit-keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+.page-login .login-header {
+  padding-top: 2.857rem;
+  text-align: center;
+}
+.page-login .login-body {
+  padding-bottom: 3rem;
+}
+@media (min-width: 768px) {
+  .page-login .title-login {
+    font-size: 1.714rem;
+  }
+}
+.page-login input {
+  border: 1px solid transparent;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.0901960784);
+}
+.page-login input:focus {
+  border: 1px solid #9499b3;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.0901960784);
+}
+.page-login label {
+  padding: 10px;
+}
+.page-login button.cmp-login-block {
+  background: #9499b3;
+  color: #ffffff;
+}
+.page-login button.cmp-login-block:hover {
+  background: #312f4f;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .page-login .cmp-login-w-4\/5 {
+    width: 100%;
+  }
+}
+.page-login .cmp-login-mb-6 {
+  margin-bottom: 1rem;
+}
+.page-login .cmp-login-gap-4 {
+  gap: 1rem;
+}/*# sourceMappingURL=login.css.map */

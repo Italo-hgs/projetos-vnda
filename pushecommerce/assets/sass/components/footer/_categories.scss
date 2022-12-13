@@ -1,11 +1,11 @@
   .categories {
-  grid-area: categories;
-  display: flex;
-  // justify-content: space-between;
-  font-size: 0.73rem;
+    grid-area: categories;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
   .category {
     @include media('sm'){
-      margin-right: 10%;
+      // margin-right: 10%;
     }
   }
   .arrow {
@@ -25,7 +25,10 @@
     color: $white;
     text-transform: uppercase;
     margin-bottom: 2rem;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;
+    color: $cor-principal;
     letter-spacing: 0.08em;
 
     .arrow {
@@ -36,8 +39,16 @@
   }
 
   a{
-    color: $white;
+    color: #717171;
     transition: .5s;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    /* identical to box height, or 182% */
+
+    text-transform: capitalize;
     &:hover{
       color: $black;
     }

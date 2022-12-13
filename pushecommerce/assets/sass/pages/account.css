@@ -1,0 +1,28 @@
+@-webkit-keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+.page-account .account-wrapper {
+  margin-bottom: 3.571rem;
+}
+.page-account .account-wrapper .vndaAccountWidgetRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.page-account .account-wrapper .vndaAccountWidgetRow .vndaAccountWidgetCol {
+  width: 40%;
+  margin-right: 2.143rem;
+  flex: auto !important;
+}
+.page-account .account-wrapper .vndaAccountWidgetRow .vndaAccountWidgetCol:last-child {
+  margin-right: 0;
+  width: calc(60% - 30px);
+}/*# sourceMappingURL=account.css.map */
