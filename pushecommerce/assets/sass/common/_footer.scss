@@ -17,6 +17,7 @@
     'social social social'
     'paragraph categories categories'
     'payment payment payment'
+    'copyryght copyryght copyryght'
     'signature signature signature';
 
     // grid-template-rows: 0.8fr 0.5fr 1fr 0.5fr 0fr;
@@ -29,6 +30,7 @@
       'paragraph paragraph'
       'categories categories'
       'payment payment'
+      'copyryght copyryght'
       'signature signature';
 
       grid-template-rows: 1fr 0.5fr 0.5fr auto 0.5fr 0fr;
@@ -44,6 +46,7 @@
       'paragraph'
       'categories'
       'payment'
+      'copyryght'
       'signature';
 
       grid-template-rows: 0fr 0.8fr 0.3fr 0.5fr auto 0.3fr 0fr;
@@ -51,11 +54,14 @@
     }
 
     @import "../components/footer/banner";
-    @import "../components/footer/newsletter";
-    @import "../components/footer/social";
     @import "../components/footer/paragraph";
     @import "../components/footer/categories";
-    @import "../components/footer/payment";
     @import "../components/footer/signature";
   }
+
+  @import "../components/footer/newsletter";
+  @import "../components/footer/payment";
+  @import "../components/footer/social";
+  @import "../components/footer/copyright";
+  @import "../components/footer/logo";
 }

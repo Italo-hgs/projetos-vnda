@@ -7,8 +7,11 @@
     {% render "partials/footer/banner" %}
     <!--{% render "partials/footer/paragraph" %}-->
     {% render "partials/footer/categories" %}
-    {% render "partials/footer/payment" %}
-    {% render "partials/footer/signature" %}
-    {% render "partials/footer/social", current_shop: current_shop %}
+    <!--{% render "partials/footer/signature" %}-->
   </div>
+  {% render "partials/footer/payment" %}
+  {% render "partials/footer/social", current_shop: current_shop %}
+  {% render "partials/footer/copyright" %}
+  {% render "partials/footer/logo" %}
 </footer>
+

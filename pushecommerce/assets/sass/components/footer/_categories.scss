@@ -2,7 +2,7 @@
     grid-area: categories;
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
+    padding: 50px 0;
   .category {
     @include media('sm'){
       // margin-right: 10%;
@@ -26,7 +26,7 @@
     text-transform: uppercase;
     margin-bottom: 2rem;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 19px;
     font-style: normal;
     color: $cor-principal;
     letter-spacing: 0.08em;
@@ -44,7 +44,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 24px;
     /* identical to box height, or 182% */
 
@@ -62,7 +62,7 @@
     li {
       font-weight: bold;
       font-size: 0.84rem;
-      margin-bottom: 1rem;
+      margin-bottom: 11px;
     }
   }
 
