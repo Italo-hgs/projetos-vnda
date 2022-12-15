@@ -1,5 +1,6 @@
 <div class="banner icons banner-icons">
-  {% if limit != blank %}
+  <div class="container">
+    {% if limit != blank %}
     {% load_banners position: position | limit: limit  %}
   {% else %}
     {% load_banners position: position %}
@@ -24,4 +25,5 @@
       </div>
     </div>
   {% endfor %}
+  </div>
 </div>

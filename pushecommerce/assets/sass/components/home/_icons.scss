@@ -1,4 +1,8 @@
 .banner {
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
   &.icons {
     display: flex;
     justify-content: space-between;

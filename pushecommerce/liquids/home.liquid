@@ -16,9 +16,9 @@
 
 {% render 'partials/home/fullbanner', position: 'home-banner-principal' resolution: 'desktop' %}
 {% render 'partials/home/fullbanner', position: 'home-banner-principal-mobile' resolution: 'mobile' %}
+{% render 'partials/home/icons', position: 'home-icons', limit: 4 %}
 
 <div class="container">
-  {% render 'partials/home/icons', position: 'home-icons', limit: 4 %}
   {% render 'partials/components/products/carousel', tag_type: 'home-produtos' %}
   {% render 'partials/home/support_banners', position: 'home-banner-apoio', limit: 2 %}
   {% render 'partials/components/products/tabs_products', tag_type: 'home-produtos-abas' %}
