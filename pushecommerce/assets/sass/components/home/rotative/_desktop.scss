@@ -1,7 +1,6 @@
 &.desktop {
   .card {
     position: absolute;
-
     display: flex;
     align-items: center;
     text-align: start;
@@ -28,7 +27,7 @@
     &.center-top,
     &.center-bottom,
     &.center-center {
-      justify-content: center;
+      justify-content: flex-start;
       text-align: center;
     }
 
@@ -53,7 +52,6 @@
     .content {
       padding: 3.3rem;
       line-height: normal;
-      background: $white;
       margin-bottom: 0;
 
       .description {
@@ -128,4 +126,36 @@
     opacity: 0;
     visibility: hidden;
   }
+}
+
+#nova-cole-o{
+  text-align: left;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: $cor-principal;
+}
+
+#outono-inverno{
+  text-align: left;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+#frete-gratis-nas-compras-acima-de-r-200-00{
+  text-align: left;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: $cor-principal;
+  padding-bottom: 20px;
 }
