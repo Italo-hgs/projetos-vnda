@@ -159,3 +159,17 @@
   color: $cor-principal;
   padding-bottom: 20px;
 }
+
+.center-center{
+  .btn{
+    background-color: #638C0B !important;
+    display: inline-block;
+    color: $white !important;
+    border-radius: 0 !important;
+    position: absolute;
+    left: 65px;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+  }
+}
