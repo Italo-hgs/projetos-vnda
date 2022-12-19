@@ -1,6 +1,7 @@
 <div class="banner icons banner-icons">
   <div class="container">
-    {% if limit != blank %}
+    <div class="flex-icons">
+      {% if limit != blank %}
     {% load_banners position: position | limit: limit  %}
   {% else %}
     {% load_banners position: position %}
@@ -20,10 +21,11 @@
 
       <div class="text"> 
         {% if banner.subtitle != blank %}
-          <h2>{{ banner.subtitle }}</h2>
+          <h2 id="textIcon">{{ banner.subtitle }}</h2>
         {% endif %}
       </div>
     </div>
   {% endfor %}
+    </div>
   </div>
 </div>

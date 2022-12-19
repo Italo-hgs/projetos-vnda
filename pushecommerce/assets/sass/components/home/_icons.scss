@@ -3,6 +3,12 @@
     display: flex;
     justify-content: space-between;
   }
+  .flex-icons{
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
   &.icons {
     display: flex;
     justify-content: space-between;
@@ -11,16 +17,26 @@
     .item {
       display: flex;
       flex-direction: row;
-
       align-items: center;
       align-self: center;
 
       .text {
         margin-right: 16px;
+        width: 61%;
         h2{
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 18px;
+          color: $cor-principal;
+          text-transform: uppercase;
+        }
+        .ultima-parte-icon{
+          font-style: normal;
           font-weight: 400;
-          font-size: 16px;
-          line-height: 24px;
+          font-size: 12px;
+          line-height: 16px;
+          text-transform: uppercase;
+          color: #222222;
         }
       }
 

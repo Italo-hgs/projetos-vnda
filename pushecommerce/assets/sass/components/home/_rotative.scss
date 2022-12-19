@@ -2,13 +2,13 @@
         "../../base/mixins";
 
 .banner {
-  margin-bottom: 6.4rem;
+  margin-bottom: 3rem;
 
   @include media("xs") {
     margin-bottom: 2rem;
   }
   &.rotative {
-    margin-bottom: 2.4rem;
+    margin-bottom: -0.3rem;
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
 
