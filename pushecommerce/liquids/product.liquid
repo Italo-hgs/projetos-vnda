@@ -63,4 +63,49 @@
     {% render 'partials/product/buy_together', current_product: product %}
   {%- endcomment -%}
   {% render 'partials/components/products/carousel', tag_type: 'relacionado' %}
+
+  <div id="stamped-main-widget"
+    data-product-id="##product.id##"
+    data-name="##product.title##"
+    data-url="##product.url##"
+    data-image-url="##product.image##"
+    data-description="##product.description##"
+    data-product-sku="##product.handle##"
+    data-product-aggregateRating="##product.aggregateRating##">
+  </div>
+  <span class="stamped-product-reviews-badge stamped-main-badge" data-id="##product.id##"></span>
+  <script>
+
+function addEventListenerStamped(el, eventName, manipulador) {
+
+if (el.addEventListener) { el.addEventListener(eventName, manipulador); }
+else { el.attachEvent('on' + eventName, function () { handler.call(el); }); }
+
+}
+
+addEventListenerStamped(document, 'carimbado:reviews:loaded', function(e) {
+var ratingCount = jQueryStamped('meta[itemprop="reviewCount"]').attr('content');
+var ratingValue = jQueryStamped('meta[itemprop="ratingValue"]').attr('content');
+
+
+var richSnippet = {
+"@context": "http://schema.org",
+"@type": "Produto",
+"@id": "https://pushecommerce.vnda.dev/#produto"
+}
+
+
+if (parseInt(ratingValue) > 0){
+richSnippet.aggregateRating = {
+"@type": "AggregateRating",
+"avaliaçãoValue": avaliaçãoValue,
+"reviewCount": ratingCount
+}
+}
+var script = document.createElement('script');
+script.type = 'aplicativo/ld+json';
+script.innerHTML = JSON.stringify(richSnippet);
+document.getElementsByTagName('head')[0].appendChild(script);
+});
+</script>
 </div>

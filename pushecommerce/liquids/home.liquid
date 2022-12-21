@@ -12,6 +12,12 @@
 
   <link rel="stylesheet" type="text/css" href="/pages/home_above.css" inline>
   <link rel="stylesheet" href="{{ 'pages/home.css' | stylesheet_path }}" media="print" onload="this.media='all'" />
+
+  <!--API DE AVALIAÇÃO DO PRODUTO-->
+  <script type="text/javascript" src="https://cdn1.stamped.io/files/widget.min.js"></script>
+  <script type="text/javascript">//<![CDATA[
+  StampedFn.init({ apiKey: '##pubkey-bn75y7501UWSEx6xax3B1nr8o3bYja##', storeUrl: '##pushecommerce.vnda.dev##' });
+  // ]]></script>
 {% endhead %}
 
 {% render 'partials/home/fullbanner', position: 'home-banner-principal' resolution: 'desktop' %}
