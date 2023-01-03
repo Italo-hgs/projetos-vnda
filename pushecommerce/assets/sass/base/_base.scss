@@ -318,3 +318,20 @@ a {
     text-transform: uppercase;
   }
 }
+
+.btn-add-cart-home{
+  display: flex;
+  margin: auto;
+
+  .adicionar-ao-carrinho-home{
+    background: #638C0B;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 11px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+}

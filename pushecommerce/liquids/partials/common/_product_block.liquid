@@ -77,4 +77,20 @@
     ></div>
     <p class="quantity">{{ product.variants.size }} opções disponíveis</p>
   </div>
+
+  <button
+            type="submit"
+            class="add-to-cart-button btn-add-cart-home"
+            data-action="add-cart"
+            text-unavailable="indisponível"
+            text-available="adicionar ao carrinho"
+          >
+            {% if product.available == true %}
+              <h3 class="adicionar-ao-carrinho-home">adicionar ao carrinho</h3>
+              {% assign classNotify = ''  %}
+            {% else %}
+              <h3>produto indisponível</h3>
+              {% assign classNotify = 'active'  %}
+            {% endif %}
+  </button>
 </div>
