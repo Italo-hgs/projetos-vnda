@@ -1673,7 +1673,7 @@ a[data-zoom-id] img,
   display: flex;
   font-size: 14px;
   color: #312f4f;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   margin-top: 0;
   line-height: 24px;
   width: auto;
@@ -1689,7 +1689,7 @@ a[data-zoom-id] img,
 .page-product .product-section .product-info .description-wrapper > div ol li {
   font-size: 0.857rem;
   color: #888;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   letter-spacing: 0.05em;
   line-height: 1.4em;
 }
@@ -1698,7 +1698,7 @@ a[data-zoom-id] img,
   font-size: 0.857rem;
   color: #312f4f;
   margin: 0 0 5px;
-  font-family: "Montserrat", cursive;
+  font-family: "Poppins";
 }
 .page-product .product-section .product-info form .amount-action-wrapper .amount-left-label {
   display: none;

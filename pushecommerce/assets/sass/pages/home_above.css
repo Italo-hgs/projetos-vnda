@@ -8,6 +8,16 @@
     transform: translateX(100%);
   }
 }
+.page-home main .banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+.page-home main .banner .flex-icons {
+  display: flex;
+  width: 1400px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .page-home main .banner.icons {
   display: flex;
   justify-content: space-between;
@@ -21,11 +31,22 @@
 }
 .page-home main .banner.icons .item .text {
   margin-right: 16px;
+  width: 61%;
 }
 .page-home main .banner.icons .item .text h2 {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #52A792;
+  text-transform: uppercase;
+}
+.page-home main .banner.icons .item .text .ultima-parte-icon {
+  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #222222;
 }
 .page-home main .banner.icons .item figure {
   position: relative;
@@ -54,7 +75,7 @@
   }
 }
 .page-home main .banner {
-  margin-bottom: 6.4rem;
+  margin-bottom: 3rem;
 }
 @media (max-width: 767px) {
   .page-home main .banner {
@@ -62,7 +83,7 @@
   }
 }
 .page-home main .banner.rotative {
-  margin-bottom: 2.4rem;
+  margin-bottom: -0.3rem;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
 }
@@ -86,7 +107,7 @@
   justify-content: flex-end;
 }
 .page-home main .banner.rotative.desktop .card.center-top, .page-home main .banner.rotative.desktop .card.center-bottom, .page-home main .banner.rotative.desktop .card.center-center {
-  justify-content: center;
+  justify-content: flex-start;
   text-align: center;
 }
 .page-home main .banner.rotative.desktop .card.right-top, .page-home main .banner.rotative.desktop .card.left-top, .page-home main .banner.rotative.desktop .card.center-top {
@@ -101,7 +122,6 @@
 .page-home main .banner.rotative.desktop .card .content {
   padding: 3.3rem;
   line-height: normal;
-  background: #ffffff;
   margin-bottom: 0;
 }
 .page-home main .banner.rotative.desktop .card .content .description {
@@ -156,6 +176,74 @@
     opacity: 0;
     visibility: hidden;
   }
+}
+.page-home main .banner.rotative #nova-cole-o {
+  text-align: left;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #52A792;
+}
+.page-home main .banner.rotative #outono {
+  text-align: left;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: inline;
+  position: relative;
+  left: -32px;
+  position: relative;
+}
+.page-home main .banner.rotative #inverno {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #5e299a;
+  text-shadow: 1px #5e299a;
+  display: inline;
+  color: transparent;
+  position: relative;
+  left: -20px;
+}
+.page-home main .banner.rotative #frete-gratis-nas-compras-acima-de {
+  text-align: left;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #52A792;
+  padding-bottom: 20px;
+  display: inline;
+}
+.page-home main .banner.rotative #r-200-00 {
+  display: inline;
+  font-style: normal;
+  font-weight: 600;
+  color: #52A792;
+}
+.page-home main .banner.rotative #ocultar {
+  display: table-column;
+}
+.page-home main .banner.rotative .center-center .btn {
+  background-color: #638C0B !important;
+  display: table;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  padding: 10px 50px;
+  margin-top: 25px;
 }
 .page-home main .banner.rotative.mobile {
   display: none;

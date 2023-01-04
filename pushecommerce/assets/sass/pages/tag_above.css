@@ -180,11 +180,15 @@
     width: 100%;
   }
 }
+.products.grid .products .swiper-wrapper {
+  padding: 20px 4px;
+}
 .products.grid .product {
   transition: all 300ms ease;
-  border: 1px solid #C0BFD6;
-  border-radius: 4px;
   height: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.1);
+  padding: 15px;
 }
 .products.grid .product:hover .image .images figure:nth-child(2) {
   opacity: 1;
@@ -199,7 +203,6 @@
 }
 .products.grid .product .image {
   position: relative;
-  border-bottom: 1px solid #C0BFD6;
 }
 .products.grid .product .image .images {
   padding-bottom: 100%;
@@ -229,25 +232,36 @@
   padding: 1rem;
 }
 .products.grid .product .description .name {
-  font-size: 16px;
-  line-height: 24px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
   margin: 0 0 5px;
   transition: all 300ms ease;
+  text-align: center;
 }
 .products.grid .product .description .name a {
-  color: #312F4F;
+  color: #353145;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
 }
 .products.grid .product .description .name a:hover {
   color: #696d8c;
   transition: all 300ms ease;
 }
+.products.grid .product .cmp-price-container {
+  text-align: center;
+}
 .products.grid .product .cmp-price-container p {
-  font-size: 16px;
-  line-height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
   font-weight: 700;
-  color: #312F4F;
+  font-size: 24px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #4F3B90;
 }
 .products.grid .product .cmp-price-container .cmp-price-sold-out ~ *,
 .products.grid .product .cmp-price-container .cmp-price-original-price-prefix,
@@ -277,6 +291,7 @@
   line-height: 20px;
   font-weight: 400;
   color: #312F4F;
+  text-align: center;
 }
 .products.grid .product .flag {
   position: absolute;

@@ -84,7 +84,7 @@
             data-action="add-cart"
             text-unavailable="indisponível"
             text-available="adicionar ao carrinho"
-          >
+          ><a href="{{ product.url }}">
             {% if product.available == true %}
               <h3 class="adicionar-ao-carrinho-home">adicionar ao carrinho</h3>
               {% assign classNotify = ''  %}
