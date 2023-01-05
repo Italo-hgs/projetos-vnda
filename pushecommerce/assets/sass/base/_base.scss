@@ -224,7 +224,7 @@ a {
     }
 
     @include media("xs") {
-      position: absolute;
+      //position: absolute;
       width: 100%;
       top: 100%;
     }
