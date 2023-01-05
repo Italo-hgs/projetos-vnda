@@ -42,8 +42,11 @@
       align-items: center;
 
       .hamburger-logo {
+        position: relative;
+        left: -37px;
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
       }
     }
 

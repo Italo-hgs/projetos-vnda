@@ -1,6 +1,7 @@
 <div class="banner icons banner-icons">
   <div class="container">
-    <div class="flex-icons">
+    <div class="swiper">
+      <div class="swiper-wrapper">
       {% if limit != blank %}
     {% load_banners position: position | limit: limit  %}
   {% else %}
@@ -8,7 +9,7 @@
   {% endif %}
 
   {% for banner in loaded_banners %}
-    <div class="item">
+    <div class="item swiper-slide">
       <figure>
         <img 
           class="lazy" 
@@ -27,5 +28,6 @@
     </div>
   {% endfor %}
     </div>
+  </div>
   </div>
 </div>

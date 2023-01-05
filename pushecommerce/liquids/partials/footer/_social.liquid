@@ -5,13 +5,17 @@
 <div class="social">
   <nav class="social-icons">
     <h3>SIGA-NOS</h3>
+    <div class="icones-sociais">
     {% for menu in loaded_menus %}
-      <a href="{{ menu.url }}" {% if menu.external %} rel="external" target="_blank" {% endif %}>
-        <svg role="img">
-          <title>{{ menu.title }}</title>
-          <use xlink:href="#icon-{{ menu.tooltip }}"/>
-        </svg>
-      </a>
+      
+        <a href="{{ menu.url }}" {% if menu.external %} rel="external" target="_blank" {% endif %}>
+          <svg role="img">
+            <title>{{ menu.title }}</title>
+            <use xlink:href="#icon-{{ menu.tooltip }}"/>
+          </svg>
+        </a>
+      
     {% endfor %}
+    </div>
   </nav>
 </div>

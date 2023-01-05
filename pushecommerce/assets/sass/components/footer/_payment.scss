@@ -58,3 +58,61 @@
     align-items:flex-start;
   }
 }
+
+@media screen and (max-width: 520px){
+  .payment {
+    background-color: $bg-principal;
+  
+    .seguranca-pagamento-envio{
+      
+      justify-content: center;
+      max-width: 1200px;
+      margin: auto;
+      padding: 50px 0;
+  
+      h3{
+        color: $cor-principal;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 20px;
+        letter-spacing: 0.48px;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+
+      .seguranca, .pagamento, .forma-envio{
+        margin: 40px 0;
+
+        a{
+          display: inline-block;
+          text-align: center;
+          width: 100%;
+        }
+      }
+    }
+  
+    .payment-icons {
+      display: flex;
+      width: 400px;
+      flex-wrap: wrap;
+      img{
+        margin-right: 5px;
+        width: 60px;
+      }
+    }
+  
+    svg {
+      width: 1.071rem;
+      height: 1.071rem;
+      fill: $black;
+      transition: 0.3s;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  }
+}
